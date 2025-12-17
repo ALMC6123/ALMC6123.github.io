@@ -3,11 +3,9 @@ html {
     margin: 0;
     padding: 0;
 }
-.container {
-    
-}
 
 .container-navbar {
+    text-decoration: none;
     background-color: rgb(114, 166, 255);
     height: 10vh;
 }
@@ -15,6 +13,15 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
+}
+.namaweb {
+    padding-right: 390px;
+    color: white;
+    font-size: 40px;
+    list-style-type: none;
+    text-decoration: none;
+
 }
 .li-navbar {
     color: white;
@@ -30,7 +37,13 @@ html {
 .a-navbar {
     color: white;
     text-decoration: none;
+    font-size: 20px;
 }
+.text-navbar {
+    height: 20px;
+    width: 50px;
+    size: 30px;
+    }
 .container-content {
     background-color: rgb(255, 255, 255);
     height: 80vh;
@@ -92,13 +105,14 @@ html {
 .container-footer {
     background-color: rgb(90, 148, 255) ;
     height: 10vh;
-d   display: flex;
-    
+    display: flex; 
+     justify-content: center;
+     align-items: center;   
 }
 .h-footer {
     font-size: 20px;
     color: white;
-    display: flex;
+     display: flex;
      justify-content: center;
      align-items: center;
 }
