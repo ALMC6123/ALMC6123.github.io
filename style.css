@@ -16,7 +16,7 @@ html {
     text-decoration: none;
 }
 .namaweb {
-    padding-right: 250px;
+    padding-right: 220px;
     color: white;
     font-size: 40px;
     list-style-type: none;
@@ -43,18 +43,21 @@ html {
     size: 45px;
     }
 .text-navbar input {
-    height: 25px;
-    width: 160px;
+    height: 30px;
+    width: 170px;
      border-radius: 10px;
      border-color: white;
 }    
+.search-button {
+    padding-left: 10px;
+}
 .search-button input {
     border-radius: 10px;
-    height: 25px;
+    height: 27px;
     width: 45px;
     cursor: pointer;
     background-color: rgb(255, 255, 255);
-    border-color: white;;
+    border-color: white;
 }
 .container-content {
     background-color: rgb(255, 255, 255);
